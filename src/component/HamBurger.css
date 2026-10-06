@@ -1,0 +1,65 @@
+.hamburger-sec{
+    background-image: url(/Images/Background/hamburger.jpg);
+    height: 400px;
+     background-position: center;
+    background-size: cover;
+    color: white;
+}
+.hamburger-div{
+    padding-top: 70px;
+}
+.hamburger-div p{
+    font-size: 20px;
+}
+.hamburger-div h2{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.hamburger-div h3{
+    font-size: 40px;
+    background-color: rgb(197, 191, 191);
+    width: 130px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    color: black;
+    padding: 10px;
+}
+.hamburger-div nav a{
+    font-size: 20px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 10px;
+}
+@media(min-width:768px){
+.hamburger-div h2{
+    width: 300px;
+} 
+.hamburger-div{
+    padding-left: 20px;
+}   
+}
+@media(min-width:991px){
+.hamburger-div{
+    padding-left: 200px;
+} 
+.hamburger-div p{
+    font-size: 25px;
+}   
+.hamburger-div h2{
+    font-size: 50px;
+    width: 400px;
+}
+.hamburger-sec{
+    height: 450px;
+}
+.hamburger-div nav a{
+    padding: 15px;
+}
+.hamburger-div nav a:hover{
+    background-color: white;
+    color: orangered;
+}
+}
+.hamburger-div button{ border:1px solid orangered; background:orangered; color:#fff; padding:12px 22px; font-size:17px; transition:.2s; }
+.hamburger-div button:hover{ background:#fff; color:orangered; }

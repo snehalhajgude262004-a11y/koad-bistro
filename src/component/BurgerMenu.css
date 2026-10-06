@@ -1,0 +1,56 @@
+.burger-sec{
+    padding-top: 900px;
+    background-image: url(/Images/Background/burger-bg.jpg);
+    height: 2000px;
+}
+.burger-sec h3{
+font-size: 40px;
+font-weight: bold;
+padding-top: 30px;
+}
+.burgerfigure{
+    width: 60px;
+    height: 60px;
+}
+.burger-div h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.burger-div h5{
+    font-size: 16px;
+    color: orangered;
+}
+.burger-div p{
+    color: rgb(81, 81, 81);
+}
+.burger-div{
+    display: flex;
+    column-gap: 20px;
+}
+
+@media(min-width:768px){
+.burger-sec{
+    padding-top: 170px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 600px;
+}
+.burgerimg2{
+    padding-top: 130px;
+    /* height: 550px; */
+}    
+}
+
+@media(min-width:991px){
+.burger-sec{
+    padding-top: 2px;
+}
+.burgerimg2{
+height: 550px;
+width: 400px;
+margin-left: 140px;
+} 
+.burger-head{
+    padding-top: 70px;
+}   
+}

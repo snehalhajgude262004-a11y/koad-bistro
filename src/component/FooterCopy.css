@@ -1,0 +1,21 @@
+.footercopy1 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    background-color: #F8F8F9;
+    padding-top: 20px;
+    color: rgb(114, 111, 111);
+}
+.footertop-div{
+     border-top: 1px solid rgb(210, 207, 207);
+}
+.footercopy1 nav a{
+    font-size: 14px;
+}
+
+@media(min-width:768px) {
+    .footercopy1 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

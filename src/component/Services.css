@@ -1,0 +1,31 @@
+.service-sec img{
+    width: 40px;
+    height: 40px;
+}
+.service-sec{
+    text-align: center;
+    padding-top: 10px;
+}
+.service-sec p{
+    color: darkgray;
+}
+.service{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.service-sec h3{
+    font-weight: bold;
+    padding-top: 10px;
+}
+@media(min-width:991px){
+ .service{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+ }   
+ .service-sec{
+    padding-right: 10px;
+ }
+}

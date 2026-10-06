@@ -1,0 +1,90 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.hero-sec{
+    background-image: url(/Images/Background/pizza2.jpg);
+    height: 560px;
+     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-sec h1{
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 42px;
+    width: 200px;
+    padding-left: 20px;
+}
+.hero-sec p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    padding-bottom: 30px;
+}
+.hero-sec nav a{
+    border: 1px solid orangered;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+@media(min-width:768px){
+.hero-sec h1{
+    font-size: 55px;
+    width: 300px;
+}
+.hero-sec p{
+    font-size: 23px;
+    color: rgb(56, 56, 56);
+}
+.hero-sec nav a{
+    padding: 15px;
+    font-size: 20px;
+}
+}
+@media(min-width:991px){
+.hero-sec{
+    height: 680px;
+}    
+.hero-sec h1{
+    padding-top:100px;
+    font-size: 80px;
+    font-weight: bold;
+    width: 550px;
+    padding-left: 100px;
+}
+.hero-sec p{
+    font-size: 27px;
+    padding-left:100px ;
+    padding-top: 20px;
+    color: rgb(56, 56, 56);
+    padding-bottom: 20px;
+}
+.hero-sec nav a{
+    margin-left: 100px;
+    font-size: 20px;
+    border: 1px solid orangered;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+.hero-sec nav a:hover{
+    background-color: white;
+    color: orangered;
+}
+}

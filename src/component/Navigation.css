@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    width: 100%;
+}
+.nav-mobile{
+    padding: 15px;
+}
+.nav-mobile img{
+    width: 70px;
+    height: 50px;
+}
+.nav-mobile i{
+    font-size: 30px;
+    border: 1px solid rgb(210, 206, 206);
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+@media(min-width:768px){
+.nav-mobile i{
+    margin-left:250px ;
+    padding: 6px;
+} 
+.nav-mobile img{
+    width: 80px;
+} 
+}
+@media(min-width:991px){
+.nav-desktop{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}    
+.nav-desktop img{
+    width: 80px;
+} 
+.nav-desktop ul{
+    padding-top: 10px;
+    display: flex;
+    column-gap: 50px;
+}   
+.nav-desktop ul a{
+    font-size: 18px;
+}
+.btn a{
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 18px;
+}
+.nav-desktop ul a:hover{
+    color: orangered;
+}
+.btn a:hover{
+    background-color: orangered;
+}
+}
+.site-header{ position: relative; z-index: 20; background: #fff; }
+.nav-mobile{ display:flex; align-items:center; justify-content:space-between; padding: 12px 18px; }
+.nav-mobile img{ width:70px; height:50px; object-fit:contain; }
+.mobile-menu-btn{ border:1px solid #ddd; background:#fff; border-radius:6px; width:46px; height:42px; display:grid; place-items:center; }
+.mobile-menu-btn i{ font-size:26px; }
+.nav-desktop{ min-height:85px; display:flex; align-items:center; justify-content:space-between; gap:30px; }
+.nav-desktop > img{ width:80px; height:55px; object-fit:contain; }
+.nav-desktop nav ul{ margin:0; padding:0; display:flex; gap:32px; }
+.nav-desktop nav a{ font-size:17px; transition:.2s; }
+.nav-desktop nav a:hover{ color:orangered; }
+.nav-book-btn{ border:1px solid orangered; padding:12px 18px; font-size:16px; }
+.nav-book-btn:hover{ background:orangered; color:#fff; }
+.offcanvas nav{ display:flex; flex-direction:column; gap:8px; }
+.offcanvas nav a{ padding:12px 4px; border-bottom:1px solid #eee; font-size:18px; }
+.offcanvas nav a:hover{ color:orangered; }
+@media(min-width:991px){ .site-header .nav-mobile{ display:none; } }

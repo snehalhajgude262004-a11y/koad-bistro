@@ -1,0 +1,59 @@
+.pasta-sec{
+    background-image: url(/Images/Background/pasta-bg.jpg);
+    height: 600px;
+}
+.pastafigure1{
+    width: 100px;
+    height: 100px;
+}
+.pasta-sec{
+    padding-top: 570px;
+}
+.pasta-sec h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pasta-div{
+    display: flex;
+    column-gap: 20px;
+}
+.pasta-div img{
+    width: 60px;
+    height: 60px;
+}
+.pasta-div h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.pasta-div h5{
+    font-size: 16px;
+    color: orangered;
+}
+.pasta-div p{
+    color: rgb(81, 81, 81);
+}
+
+@media(min-width:768px){
+.pasta-sec{
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }   
+.pastaimg1{
+    padding-top: 60PX;
+}
+}
+
+@media(min-width:991px){
+ .pasta-sec{
+    padding-top: 60px;
+ }  
+ .pastaimg1{
+    height: 500px;
+    width: 400px;
+ } 
+.pasta-head{
+    padding-left: 150px;
+    padding-top: 50px;
+} 
+}
